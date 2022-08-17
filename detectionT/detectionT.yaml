@@ -1,0 +1,8 @@
+path:  # dataset root dir
+train: images/train.txt
+val: images/validation.txt
+test: images/test.txt
+
+# Classes
+nc: 4  
+names: ['area_piccola','area_grande','L','T']  

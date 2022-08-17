@@ -1,0 +1,11 @@
+matplotlib
+tk
+pillow
+pandas
+numpy
+python-math
+statistics
+opencv-python
+ezprogress
+torch
+torchvision

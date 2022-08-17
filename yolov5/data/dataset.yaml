@@ -1,0 +1,8 @@
+path: data/obj  # dataset root dir
+train: /content/drive/MyDrive/training yolov5/train.txt
+val: /content/drive/MyDrive/training yolov5/validation.txt
+test: /content/drive/MyDrive/training yolov5/test.txt
+
+# Classes
+nc: 2  
+names: ['robot','palla']  
