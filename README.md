@@ -66,39 +66,52 @@ MARIO is an end-to-end Modular and extensible ARchitecture for computing vIsual 
 
 -Install OpenCV with: 
   
-    $ sudo make install    
+    $ sudo make install
 
 -To verify the installation, type the following commands and you should see the OpenCV version for Python bindings:
 
     $  python3 -c "import cv2; print(cv2.__version__)"
 
+
+## Tkinter INSTALLATION from Python ***PyPi***
+
+    $ sudo apt-get install python3-tk
+
 ## PYTHON LIBRARIES INSTALLATION 
  
-    $ requests==2.28.0
-
-    $ torch==1.11.0 torchaudio==0.11.0 torchvision==0.12.0
+    $ pip install requests==2.28.0 
     
-    $ pyyaml==6.0
+    $ pip install torch==1.11.0 torchaudio==0.11.0 torchvision==0.12.0
     
-    $ tqdm==4.64.0
-
-    $ matplotlib==3.5.2
-
-    $ seaborn==0.11.2
-
-    $ gdown==4.4.0
-
-    $ cython==0.29.30
-
-    $ tensorboard==2.9
+    $ pip install pyyaml==6.0
     
-    $ easydict==1.9
+    $ pip install tqdm==4.64.0
 
-    $ scikit-learn==1.1.1
+    $ pip install matplotlib==3.5.2
 
-    $ protobuf==3.20.0
+    $ pip install seaborn==0.11.2
 
-    $ https://github.com/KaiyangZhou/deep-person-reid/archive/master.zip
+    $ pip install gdown==4.4.0
+
+    $ pip install cython==0.29.30
+
+    $ pip install tensorboard==2.9
+    
+    $ pip install easydict==1.9
+
+    $ pip install scikit-learn==1.1.1
+
+    $ pip install protobuf==3.20.0
+    
+    $ pip install Pillow==9.2.0
+
+    $ pip install https://github.com/KaiyangZhou/deep-person-reid/archive/master.zip	
+
+    $ pip installpython-math
+    
+    $ pip install statistics
+    
+    $ pip install ezprogress
 
 ## CLONE AND RUN PROJECT
 
@@ -116,7 +129,7 @@ MARIO is an end-to-end Modular and extensible ARchitecture for computing vIsual 
   
   https://drive.google.com/drive/folders/1Uea9DB4tz7uAb36V6ydfzTGwpQrn3YzJ?usp=sharing
 
--**RUN** project in "**MARIO**" folder with follow command:
+-**RUN** project in "**MARIO**" folder with following command:
 
     $ python3 ./gui/mario.py
 
