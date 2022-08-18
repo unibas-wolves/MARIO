@@ -1,1 +1,0 @@
-/home/michele/Scrivania/ROBOCUP/robocup-core/calibration_data/calibration_D.npz

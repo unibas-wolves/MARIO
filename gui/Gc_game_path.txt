@@ -1,1 +1,0 @@
-/home/michele/Scrivania/ROBOCUP/robocup-core/gc/data_game.json
