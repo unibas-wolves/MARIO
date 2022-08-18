@@ -41,7 +41,7 @@
 
     $ sudo git clone --branch mario-docker https://github.com/unibas-wolves/MARIO.git
     
-    **NOTE:** Rename this repository in "**MARIO-docker**"
+**NOTE:** Rename this repository in "**MARIO-docker**"
     
  -Clone the following repository:  
  
