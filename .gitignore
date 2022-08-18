@@ -1,0 +1,5 @@
+*.pyc
+/data/*
+/video/*
+/detectionT/*
+initial_frame.jpg
