@@ -73,7 +73,7 @@ MARIO is an end-to-end Modular and extensible ARchitecture for computing vIsual 
     $  python3 -c "import cv2; print(cv2.__version__)"
 
 
-## Tkinter INSTALLATION from Python ***PyPi***
+## Tkinter INSTALLATION
 
     $ sudo apt-get install python3-tk
 
@@ -143,3 +143,5 @@ MARIO is an end-to-end Modular and extensible ARchitecture for computing vIsual 
 
     Delete "**images**" folder in "**MARIO/imbs-mt**" folder
      
+
+**NOTE:** Fore more details and informations click [here](https://sites.google.com/unibas.it/wolves/robocup/robocup-2022/mario).	
