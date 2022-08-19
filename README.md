@@ -1,5 +1,6 @@
 # MARIO
-MARIO is an end-to-end Modular and extensible ARchitecture for computing vIsual statistics in rObocup spl. MARIO ranked #1 at the robocup 2022 SPL open research challenge.
+MARIO is an end-to-end Modular and Extensible Architecture for computing Visual Statistics in RoboCup SPL. 
+MARIO ranked #1 at the RoboCup 2022 SPL Open Research Challenge.
 
 ## PREREQUISITIES
 
@@ -132,16 +133,9 @@ MARIO is an end-to-end Modular and extensible ARchitecture for computing vIsual 
 -**RUN** project in "**MARIO**" folder with following command:
 
     $ python3 ./gui/mario.py
-
-### Possible problems at this step:
-
-1. **FileNotFoundError: No such file or directory: 'python'**
-
-    Change the value "***python***" in "***python3***" in "**Preparation.py**" in line 70
-    
-2. **FileExistsError: File exists: './MARIO/imbs-mt/images'**
-
-    Delete "**images**" folder in "**MARIO/imbs-mt**" folder
      
 
-**NOTE:** Fore more details and informations click [here](https://sites.google.com/unibas.it/wolves/robocup/robocup-2022/mario).	
+**NOTE:** 
+- Fore more details and informations click [here](https://sites.google.com/unibas.it/wolves/robocup/robocup-2022/mario).
+- For run MARIO in a **Docker Container** click [here](https://github.com/unibas-wolves/MARIO/tree/mario-docker).
+	
