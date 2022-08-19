@@ -136,6 +136,7 @@ MARIO ranked #1 at the RoboCup 2022 SPL Open Research Challenge.
      
 
 **NOTE:** 
+
 - Fore more details and informations click [here](https://sites.google.com/unibas.it/wolves/robocup/robocup-2022/mario).
 - For run MARIO in a **Docker Container** click [here](https://github.com/unibas-wolves/MARIO/tree/mario-docker).
 	
