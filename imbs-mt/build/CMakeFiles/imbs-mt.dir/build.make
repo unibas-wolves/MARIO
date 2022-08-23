@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt
+CMAKE_SOURCE_DIR = /home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt/build
+CMAKE_BINARY_DIR = /home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/imbs-mt.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/imbs-mt.dir/flags.make
 
 CMakeFiles/imbs-mt.dir/imbs.cpp.o: CMakeFiles/imbs-mt.dir/flags.make
 CMakeFiles/imbs-mt.dir/imbs.cpp.o: ../imbs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/imbs-mt.dir/imbs.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imbs-mt.dir/imbs.cpp.o -c /home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt/imbs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/imbs-mt.dir/imbs.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imbs-mt.dir/imbs.cpp.o -c /home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt/imbs.cpp
 
 CMakeFiles/imbs-mt.dir/imbs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imbs-mt.dir/imbs.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt/imbs.cpp > CMakeFiles/imbs-mt.dir/imbs.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt/imbs.cpp > CMakeFiles/imbs-mt.dir/imbs.cpp.i
 
 CMakeFiles/imbs-mt.dir/imbs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imbs-mt.dir/imbs.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt/imbs.cpp -o CMakeFiles/imbs-mt.dir/imbs.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt/imbs.cpp -o CMakeFiles/imbs-mt.dir/imbs.cpp.s
 
 CMakeFiles/imbs-mt.dir/imbsmultithread.cpp.o: CMakeFiles/imbs-mt.dir/flags.make
 CMakeFiles/imbs-mt.dir/imbsmultithread.cpp.o: ../imbsmultithread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/imbs-mt.dir/imbsmultithread.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imbs-mt.dir/imbsmultithread.cpp.o -c /home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt/imbsmultithread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/imbs-mt.dir/imbsmultithread.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imbs-mt.dir/imbsmultithread.cpp.o -c /home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt/imbsmultithread.cpp
 
 CMakeFiles/imbs-mt.dir/imbsmultithread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imbs-mt.dir/imbsmultithread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt/imbsmultithread.cpp > CMakeFiles/imbs-mt.dir/imbsmultithread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt/imbsmultithread.cpp > CMakeFiles/imbs-mt.dir/imbsmultithread.cpp.i
 
 CMakeFiles/imbs-mt.dir/imbsmultithread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imbs-mt.dir/imbsmultithread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt/imbsmultithread.cpp -o CMakeFiles/imbs-mt.dir/imbsmultithread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt/imbsmultithread.cpp -o CMakeFiles/imbs-mt.dir/imbsmultithread.cpp.s
 
 CMakeFiles/imbs-mt.dir/imagemanager.cpp.o: CMakeFiles/imbs-mt.dir/flags.make
 CMakeFiles/imbs-mt.dir/imagemanager.cpp.o: ../imagemanager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/imbs-mt.dir/imagemanager.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imbs-mt.dir/imagemanager.cpp.o -c /home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt/imagemanager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/imbs-mt.dir/imagemanager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imbs-mt.dir/imagemanager.cpp.o -c /home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt/imagemanager.cpp
 
 CMakeFiles/imbs-mt.dir/imagemanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imbs-mt.dir/imagemanager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt/imagemanager.cpp > CMakeFiles/imbs-mt.dir/imagemanager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt/imagemanager.cpp > CMakeFiles/imbs-mt.dir/imagemanager.cpp.i
 
 CMakeFiles/imbs-mt.dir/imagemanager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imbs-mt.dir/imagemanager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt/imagemanager.cpp -o CMakeFiles/imbs-mt.dir/imagemanager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt/imagemanager.cpp -o CMakeFiles/imbs-mt.dir/imagemanager.cpp.s
 
 CMakeFiles/imbs-mt.dir/main.cpp.o: CMakeFiles/imbs-mt.dir/flags.make
 CMakeFiles/imbs-mt.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/imbs-mt.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imbs-mt.dir/main.cpp.o -c /home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/imbs-mt.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imbs-mt.dir/main.cpp.o -c /home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt/main.cpp
 
 CMakeFiles/imbs-mt.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imbs-mt.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt/main.cpp > CMakeFiles/imbs-mt.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt/main.cpp > CMakeFiles/imbs-mt.dir/main.cpp.i
 
 CMakeFiles/imbs-mt.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imbs-mt.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt/main.cpp -o CMakeFiles/imbs-mt.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt/main.cpp -o CMakeFiles/imbs-mt.dir/main.cpp.s
 
 # Object files for target imbs-mt
 imbs__mt_OBJECTS = \
@@ -124,56 +124,62 @@ imbs__mt_EXTERNAL_OBJECTS =
 ../bin/imbs-mt: CMakeFiles/imbs-mt.dir/imagemanager.cpp.o
 ../bin/imbs-mt: CMakeFiles/imbs-mt.dir/main.cpp.o
 ../bin/imbs-mt: CMakeFiles/imbs-mt.dir/build.make
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
-../bin/imbs-mt: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
+../bin/imbs-mt: /usr/local/lib/libopencv_gapi.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_stitching.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_aruco.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_barcode.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_bgsegm.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_bioinspired.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_ccalib.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_dnn_objdetect.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_dnn_superres.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_dpm.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_face.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_freetype.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_fuzzy.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_hdf.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_hfs.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_img_hash.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_intensity_transform.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_line_descriptor.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_mcc.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_quality.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_rapid.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_reg.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_rgbd.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_saliency.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_stereo.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_structured_light.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_superres.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_surface_matching.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_tracking.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_videostab.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_wechat_qrcode.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_xfeatures2d.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_xobjdetect.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_xphoto.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_shape.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_highgui.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_datasets.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_plot.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_text.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_ml.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_phase_unwrapping.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_optflow.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_ximgproc.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_video.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_videoio.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_imgcodecs.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_objdetect.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_calib3d.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_dnn.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_features2d.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_flann.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_photo.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_imgproc.so.4.6.0
+../bin/imbs-mt: /usr/local/lib/libopencv_core.so.4.6.0
 ../bin/imbs-mt: CMakeFiles/imbs-mt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../bin/imbs-mt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../bin/imbs-mt"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/imbs-mt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -186,6 +192,6 @@ CMakeFiles/imbs-mt.dir/clean:
 .PHONY : CMakeFiles/imbs-mt.dir/clean
 
 CMakeFiles/imbs-mt.dir/depend:
-	cd /home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt /home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt /home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt/build /home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt/build /home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt/build/CMakeFiles/imbs-mt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt /home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt /home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt/build /home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt/build /home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt/build/CMakeFiles/imbs-mt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/imbs-mt.dir/depend
 

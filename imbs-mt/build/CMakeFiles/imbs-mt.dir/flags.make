@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/michele/Scrivania/ROBOCUP/robocup-core/imbs-mt/build -isystem /usr/include/opencv4 
+CXX_INCLUDES = -I/home/michele/Scrivania/Rocchina_code/MARIO/imbs-mt/build -isystem /usr/local/include/opencv4 
 

@@ -9,6 +9,7 @@ import math
 import statistics
 import webbrowser
 import cv2
+import shutil
 from functools import partial
 import json
 import subprocess as sub
@@ -352,6 +353,7 @@ def gui():
             s = Singleton()
             print(s.getVideoPath())
             prep = Preparation( True)
+            shutil.copyfile(s.getVideoPath(), "./output.avi")
             rm_config = {
                 "homography_src_path": "./data/image_BG/background.jpg",
                 "homography_dst_path": None,
