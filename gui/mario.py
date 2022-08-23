@@ -392,7 +392,7 @@ def gui():
             prep.calibrate_video(already_calib)
             if(already_calib):
                 prep.image_subtraction()
-                h._from_detection_automatically()
+                h._from_detection()
                 open_vista_tracking(root0)
                 cv2.waitKey(1000)
                 game.loop()
