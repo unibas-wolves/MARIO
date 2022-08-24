@@ -425,6 +425,10 @@ def gui():
             
         global is_on 
         is_on = True
+        
+
+        
+        
 
         def switch() :
             global is_on
@@ -439,8 +443,28 @@ def gui():
                 calib_button.config(state="enabled")
                 is_on = True
 
+       
+
+       
         switch_calib = ttk.Checkbutton(root0, text="calibrated", state="disabled", style="Switch.TCheckbutton", command= lambda: switch())
         switch_calib.grid(row=6, column=0, padx=20, pady=20, sticky="nsew")
+        
+        
+        global is_on_gpu 
+        is_on_gpu = True
+        
+        def switch_gpu_fun() :
+            global is_on_gpu
+            if is_on_gpu == True:
+                print("GPU ACCESA")
+                is_on_gpu = False
+            else:
+                print("GPU SPENTA")
+                is_on_gpu = True
+                
+                
+        switch_gpu = ttk.Checkbutton(root0, text="GPU", style="Switch.TCheckbutton", command= lambda: switch_gpu_fun())
+        switch_gpu.grid(row=6, column=2, padx=20, pady=20, sticky="nsew")
 
         ####PROGRESS BAR
 
