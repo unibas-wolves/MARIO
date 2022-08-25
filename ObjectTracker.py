@@ -28,9 +28,7 @@ transform = transforms.Compose([
 
 class ObjectTracker():
 
-    def __init__(self, yolo_weights_path, strong_sort_weights, homography_handler, tracking_src):
-        if torch.cuda.is_available(): device = "cuda"
-        else: device = "cpu"
+    def __init__(self, yolo_weights_path, strong_sort_weights, homography_handler, tracking_src, device):
         self.device = torch.device(device=device)
 
         self.model = DetectMultiBackend(

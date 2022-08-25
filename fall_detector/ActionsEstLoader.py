@@ -12,14 +12,12 @@ class TSSTG(object):
         weight_file: (str) Path to trained weights file.
         device: (str) Device to load the model on 'cpu' or 'cuda'.
     """
-    def __init__(self, weight_file):
+    def __init__(self, weight_file, device):
         self.graph_args = {'strategy': 'spatial'}
         self.class_names = ['Standing', 'Walking', 'Sitting', 'Lying Down',
                             'Stand up', 'Sit down', 'Fall Down']
         self.num_class = len(self.class_names)
-
-        if torch.cuda.is_available(): device = "cuda"
-        else: device = "cpu"        
+   
         self.device = device
 
         self.model = TwoStreamSpatialTemporalGraph(self.graph_args, self.num_class).to(self.device)

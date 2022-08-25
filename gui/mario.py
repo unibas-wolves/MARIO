@@ -31,6 +31,8 @@ from FallDetector import FallDetector
 
 
 def gui():
+
+        global device
  
         ###FINESTRA 2
         def open_vista_analysis(vista):
@@ -350,6 +352,8 @@ def gui():
 
 
         def start_calibration(already_calib):
+            global device 
+
             s = Singleton()
             print(s.getVideoPath())
             prep = Preparation( True)
@@ -376,10 +380,17 @@ def gui():
                 yolo_weights_path="./data/detectionCalciatori.pt", 
                 strong_sort_weights="./data/osnet_x1_0_msmt17.pth", 
                 homography_handler=h,
-                tracking_src= "./output.avi" 
+                tracking_src= "./output.avi",
+                device=device
             )
-            fd = FallDetector("./data/tsstg-model.pth")
-            pe = PoseEstimator("./data/pose_estimation.pth")
+            fd = FallDetector(
+                weight_path="./data/tsstg-model.pth",
+                device=device
+            )
+            pe = PoseEstimator(
+                "./data/pose_estimation.pth",
+                device=device
+            )
 
             game = Game(
                 resource_manager=rm, 
@@ -425,10 +436,6 @@ def gui():
             
         global is_on 
         is_on = True
-        
-
-        
-        
 
         def switch() :
             global is_on
@@ -443,25 +450,23 @@ def gui():
                 calib_button.config(state="enabled")
                 is_on = True
 
-       
 
-       
         switch_calib = ttk.Checkbutton(root0, text="calibrated", state="disabled", style="Switch.TCheckbutton", command= lambda: switch())
         switch_calib.grid(row=6, column=0, padx=20, pady=20, sticky="nsew")
-        
         
         global is_on_gpu 
         is_on_gpu = True
         
         def switch_gpu_fun() :
-            global is_on_gpu
+            global is_on_gpu, device
             if is_on_gpu == True:
                 print("GPU ACCESA")
                 is_on_gpu = False
+                device    = "cuda"
             else:
                 print("GPU SPENTA")
-                is_on_gpu = True
-                
+                is_on_gpu = True   
+                device    = "cpu"
                 
         switch_gpu = ttk.Checkbutton(root0, text="GPU", style="Switch.TCheckbutton", command= lambda: switch_gpu_fun())
         switch_gpu.grid(row=6, column=2, padx=20, pady=20, sticky="nsew")

@@ -2,8 +2,8 @@ from fall_detector.ActionsEstLoader import TSSTG
 
 class FallDetector:
 
-    def __init__(self, weight_path):
-        self.action_estimator = TSSTG(weight_path)
+    def __init__(self, weight_path, device):
+        self.action_estimator = TSSTG(weight_path, device)
 
     def detect(self, pts, image_size):
         res = self.action_estimator.predict(pts, image_size)

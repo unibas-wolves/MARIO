@@ -13,9 +13,7 @@ import math
 
 class PoseEstimator:
 
-    def __init__(self, pe_checkpoint):
-        if torch.cuda.is_available(): device = "cuda"
-        else: device = "cpu"
+    def __init__(self, pe_checkpoint, device):
         self.device = torch.device(device)
 
         self.net = PoseEstimationWithMobileNet().to(self.device)
