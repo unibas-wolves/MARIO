@@ -32,7 +32,7 @@ from FallDetector import FallDetector
 
 def gui():
 
-        global device
+        device = False
  
         ###FINESTRA 2
         def open_vista_analysis(vista):
