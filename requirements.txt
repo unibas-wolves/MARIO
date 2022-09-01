@@ -1,0 +1,14 @@
+numpy >= 1.23.2
+matplotlib
+pandas
+opencv-python
+sklearn
+ezprogress
+pyyaml
+tqdm
+seaborn
+gdown
+cython
+tensorboard
+ipython
+psutil
