@@ -103,7 +103,7 @@ MARIO ranked #1 at the RoboCup 2022 SPL Open Research Challenge.
 Choose the video of the game to be analyzed and the game controller data from https://logs.naoth.de/2019-07-02_RC19-others/ and download.
 
 	1) Upload the video via the choose video button;
-	2) Upload game controller data corresponding to the game and team via the game controller button;
+	2) Upload game controller data corresponding to the game and team via the game controller button and select GPU/CPU via switch button;
 	3) If the video has been calibrated ,that is, the fisheye distortion has been removed, switch the calibrated button otherwise via the choose 		     calibration button , select the calibration file within the calibration_data folder. In the name of the video file is the type of field in 	     which the robots play , just choose the corresponding calibration file;
 	4) Click start calibration button;
 	5) A progress bar will be shown in the terminal , when the process is finished , click the newly enabled button "go to tracking";
