@@ -74,13 +74,14 @@ MARIO ranked #1 at the RoboCup 2022 SPL Open Research Challenge.
      
 
 ## PYTHON LIBRARIES INSTALLATION 
+
+ -Go to directory of repository 
  
      pip install -r requirements.txt
      
      pip install https://github.com/KaiyangZhou/deep-person-reid/archive/master.zip
      
 ## RUN PROJECT
-
 
 -Insert the following files in the "**MARIO/detectionT**" folder:
   
@@ -96,8 +97,19 @@ MARIO ranked #1 at the RoboCup 2022 SPL Open Research Challenge.
      cd gui 
      
      python mario.py
+     
+## HOW TO USE MARIO 
 
+Choose the video of the game to be analyzed and the game controller data from https://logs.naoth.de/2019-07-02_RC19-others/ and download.
 
+	1) Upload the video via the choose video button;
+	2) Upload game controller data corresponding to the game and team via the game controller button;
+	3) If the video has been calibrated ,that is, the fisheye distortion has been removed, switch the calibrated button otherwise via the choose 		     calibration button , select the calibration file within the calibration_data folder. In the name of the video file is the type of field in 	     which the robots play , just choose the corresponding calibration file;
+	4) Click start calibration button;
+	5) A progress bar will be shown in the terminal , when the process is finished , click the newly enabled button "go to tracking";
+	6) After a background substraction process , two windows will appear for homography calculation. Red dots are shown in the real field, these dots 		will have to be located in the virtual field using the mouse and once selected just click 's' and go on for the next dots. Once the selection 	            of points is finished the tracking and analysis of the video will start.
+	7) Finished tracking ,click the go analysis button;
+	8) You can see the statistics by clicking on the various buttons that appear in the window. The heatmap and trackmap windows are closed by pressing 	          the 'q' key.
 
 **NOTE:** 
 
