@@ -5,22 +5,10 @@ MARIO ranked #1 at the RoboCup 2022 SPL Open Research Challenge.
 ## PREREQUISITIES
 
 - Ubuntu 20.04
+- Anaconda
 
-## UBUNTU DEPENDENCY INSTALLATION
-
-     sudo apt update
-
-     sudo apt install zlib1g-dev libjpeg-dev libpng-dev
-
-     sudo apt install python3-pip
-
-     sudo apt-get install git
 
 ## OpenCV INSTALLATION
-
-### OpenCV from Python ***PyPi*** 
-
-     pip install opencv-python==4.6.0.66
 
 ### OpenCV from  ***source*** 
 
@@ -73,46 +61,18 @@ MARIO ranked #1 at the RoboCup 2022 SPL Open Research Challenge.
 
       python3 -c "import cv2; print(cv2.__version__)"
 
+## CREATE CONDA ENVIROMENT
 
-## Tkinter INSTALLATION
+    conda create -n name_of_enviroment
 
-     sudo apt-get install python3-tk
+    conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+
+ 
+     
 
 ## PYTHON LIBRARIES INSTALLATION 
  
-     pip install requests==2.28.0 
-    
-     pip install torch==1.11.0 torchaudio==0.11.0 torchvision==0.12.0
-    
-     pip install pyyaml==6.0
-    
-     pip install tqdm==4.64.0
-
-     pip install matplotlib==3.5.2
-
-     pip install seaborn==0.11.2
-
-     pip install gdown==4.4.0
-
-     pip install cython==0.29.30
-
-     pip install tensorboard==2.9
-    
-     pip install easydict==1.9
-
-     pip install scikit-learn==1.1.1
-
-     pip install protobuf==3.20.0
-    
-     pip install Pillow==9.2.0
-
-     pip install https://github.com/KaiyangZhou/deep-person-reid/archive/master.zip	
-
-     pip installpython-math
-    
-     pip install statistics
-    
-     pip install ezprogress
+     pip install -r requirements.txt
 
 ## CLONE AND RUN PROJECT
 
@@ -126,14 +86,12 @@ MARIO ranked #1 at the RoboCup 2022 SPL Open Research Challenge.
 
   https://drive.google.com/drive/folders/1jHWJbsgEpoFRs8ttHWARSFuaemOJ4BsJ?usp=sharing
 
--Insert the following files in the "**MARIO/video**" folder:
-  
-  https://drive.google.com/drive/folders/1Uea9DB4tz7uAb36V6ydfzTGwpQrn3YzJ?usp=sharing
 
 -**RUN** project in "**MARIO/gui**" folder with following command:
 
-     python3 mario.py
-     
+     python mario.py
+
+
 
 **NOTE:** 
 
