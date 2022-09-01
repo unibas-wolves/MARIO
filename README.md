@@ -64,19 +64,23 @@ MARIO ranked #1 at the RoboCup 2022 SPL Open Research Challenge.
 ## CREATE CONDA ENVIROMENT
 
     conda create -n name_of_enviroment
-
+    
+    conda activate name_of_enviroment
+    
     conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
-
+    
+    git clone https://github.com/unibas-wolves/MARIO.git
  
      
 
 ## PYTHON LIBRARIES INSTALLATION 
  
      pip install -r requirements.txt
+     
+     pip install https://github.com/KaiyangZhou/deep-person-reid/archive/master.zip
+     
+## RUN PROJECT
 
-## CLONE AND RUN PROJECT
-
-     sudo git clone https://github.com/unibas-wolves/MARIO.git
 
 -Insert the following files in the "**MARIO/detectionT**" folder:
   
@@ -89,6 +93,8 @@ MARIO ranked #1 at the RoboCup 2022 SPL Open Research Challenge.
 
 -**RUN** project in "**MARIO/gui**" folder with following command:
 
+     cd gui 
+     
      python mario.py
 
 
