@@ -2,6 +2,9 @@
 MARIO is an end-to-end Modular and Extensible Architecture for computing Visual Statistics in RoboCup SPL. 
 MARIO ranked #1 at the RoboCup 2022 SPL Open Research Challenge.
 
+[![MARIO GUI](https://img.youtube.com/vi/eutyWaQ4-oU/0.jpg)](https://www.youtube.com/watch?v=eutyWaQ4-oU)
+
+
 ## PREREQUISITIES
 
 - Ubuntu 20.04
