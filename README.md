@@ -4,6 +4,15 @@
 
 [![MARIO GUI](mario.png)](https://www.youtube.com/watch?v=eutyWaQ4-oU)
 
+# Table of Contents
+1. [PREREQUISITIES](#prerequisities)
+2. [OpenCV INSTALLATION](#opencv-installation)
+3. [CREATE A CONDA ENVIRONMENT](#create-a-conda-environment)
+4. [PYTHON LIBRARIES INSTALLATION](#python-libraries-installation)
+5. [VIDEO INSTALLATION GUIDE](#video-installation-guide)
+6. [RUN THE PROJECT](#run-the-project)
+7. [HOW TO USE MARIO](#how-to-use-mario)
+
 
 ## PREREQUISITIES
 
@@ -17,7 +26,7 @@
 
      sudo apt update
 
--Install the build tools and dependencies
+- Install the build tools and dependencies
 
      sudo apt install build-essential cmake git pkg-config libgtk-3-dev \
     libavcodec-dev libavformat-dev libswscale-dev libv4l-dev \
@@ -26,7 +35,7 @@
     libtbb2 libtbb-dev libdc1394-22-dev libopenexr-dev \
     libgstreamer-plugins-base1.0-dev libgstreamer1.0-dev
 
--Clone the OpenCV’s and OpenCV contrib repositories:
+- Clone the OpenCV’s and OpenCV contrib repositories:
 
      mkdir ~/opencv_build && cd ~/opencv_build
 
@@ -34,13 +43,13 @@
 
      git clone https://github.com/opencv/opencv_contrib.git
 
--Once the download is complete, create a temporary build directory, and navigate to it:
+- Once the download is complete, create a temporary build directory, and navigate to it:
 
      cd ~/opencv_build/opencv
 
      mkdir -p build && cd build
 
--Set up the OpenCV build with CMake:
+- Set up the OpenCV build with CMake:
 
      cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D CMAKE_INSTALL_PREFIX=/usr/local \
@@ -50,21 +59,21 @@
     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules \
     -D BUILD_EXAMPLES=ON ..
 
--Start the compilation process:
+- Start the compilation process:
 
      make -j8
 
   NOTE: modify the -j flag according to your processor. 
 
--Install OpenCV with: 
+- Install OpenCV with: 
   
      sudo make install
 
--To verify the installation, type the following commands and you should see the OpenCV version for Python bindings:
+- To verify the installation, type the following commands and you should see the OpenCV version for Python bindings:
 
       python3 -c "import cv2; print(cv2.__version__)"
 
-## CREATE CONDA ENVIROMENT
+## CREATE A CONDA ENVIRONMENT
 
     conda create -n name_of_enviroment
     
@@ -78,24 +87,28 @@
 
 ## PYTHON LIBRARIES INSTALLATION 
 
- -Go to directory of repository 
+ - Go to directory of repository 
  
      pip install -r requirements.txt
      
      pip install https://github.com/KaiyangZhou/deep-person-reid/archive/master.zip
      
-## RUN PROJECT
+## VIDEO INSTALLATION GUIDE
 
--Insert the following files in the "**MARIO/detectionT**" folder:
+- A step-by-step video guide for installation is available [here](https://youtu.be/lDkgrNkeUhA).
+     
+## RUN THE PROJECT
+
+- Insert the following files in the "**MARIO/detectionT**" folder:
   
   https://drive.google.com/drive/folders/1hDBn8gZZ1LzGC5JKYuN2AIpA_oewmNM2?usp=sharing
 
--Insert the following files in the "**MARIO/data**" folder: 
+- Insert the following files in the "**MARIO/data**" folder: 
 
   https://drive.google.com/drive/folders/1jHWJbsgEpoFRs8ttHWARSFuaemOJ4BsJ?usp=sharing
 
 
--**RUN** project in "**MARIO/gui**" folder with following command:
+- **RUN** project in "**MARIO/gui**" folder with following command:
 
      cd gui 
      
@@ -103,19 +116,19 @@
      
 ## HOW TO USE MARIO 
 
-Choose the video of the game to be analyzed and the game controller data from https://logs.naoth.de/2019-07-02_RC19-others/ and download.
+- Choose the video of the game to be analyzed and the game controller data from https://logs.naoth.de/2019-07-02_RC19-others/ and download.
 
 	1) Upload the video via the choose video button;
 	2) Upload game controller data corresponding to the game and team via the game controller button and select GPU/CPU via switch button;
-	3) If the video has been calibrated ,that is, the fisheye distortion has been removed, switch the calibrated button otherwise via the choose 		     calibration button , select the calibration file within the calibration_data folder. In the name of the video file is the type of field in 	     which the robots play , just choose the corresponding calibration file;
+	3) If the video has been calibrated, i.e., the fisheye distortion has been removed, switch the calibrated button. Otherwise select, via the choose 		     calibration button, the calibration file within the calibration_data folder. In the name of the video file is the type of field in 	     which the robots play, just choose the corresponding calibration file;
 	4) Click start calibration button;
 	5) A progress bar will be shown in the terminal , when the process is finished , click the newly enabled button "go to tracking";
 	6) After a background substraction process , two windows will appear for homography calculation. Red dots are shown in the real field, these dots 		will have to be located in the virtual field using the mouse and once selected just click 's' and go on for the next dots. Once the selection 	            of points is finished the tracking and analysis of the video will start.
-	7) Finished tracking ,click the go analysis button;
-	8) You can see the statistics by clicking on the various buttons that appear in the window. The heatmap and trackmap windows are closed by pressing 	          the 'q' key.
+	7) When the tracking is complete, click the go analysis button;
+	8) You can see the statistics by clicking on the buttons that appear in the window. The heatmap and trackmap windows can be closed by pressing 	          the 'q' key.
 
 **NOTE:** 
 
-- Fore more details and informations click [here](https://sites.google.com/unibas.it/wolves/robocup/robocup-2022/mario).
-- For run MARIO in a **Docker Container** click [here](https://github.com/unibas-wolves/MARIO/tree/mario-docker).
+- Fore getting more details and information click [here](https://sites.google.com/unibas.it/wolves/robocup/robocup-2022/mario).
+- For runnning MARIO using a **Docker Container** click [here](https://github.com/unibas-wolves/MARIO/tree/mario-docker).
 	
