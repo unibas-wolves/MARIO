@@ -152,6 +152,6 @@ If you use MARIO in an academic work, please cite:
 
 **NOTE:** 
 
-- Fore getting more details and information click [here](https://sites.google.com/unibas.it/wolves/robocup/robocup-2022/mario).
+- For getting more details and information click [here](https://sites.google.com/unibas.it/wolves/robocup/robocup-2022/mario).
 - For runnning MARIO using a **Docker Container** click [here](https://github.com/unibas-wolves/MARIO/tree/mario-docker).
 	
