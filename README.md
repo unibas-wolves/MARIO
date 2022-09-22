@@ -1,6 +1,29 @@
 # MARIO
+
+**Authors:** [Domenico D. Bloisi](https://web.unibas.it/bloisi/), [Andrea Pennisi](https://www.andreapennisi.com/), Cristian Zampino, Flavio Biancospino, Francesco Laus, Gianluca Di Stefano, Michele Brienza, Rocchina Romano
+
 * MARIO is an end-to-end Modular and Extensible Architecture for computing Visual Statistics in RoboCup SPL. 
 * MARIO ranked #1 at the RoboCup 2022 SPL Open Research Challenge.
+
+**Related Publications:**  
+Domenico D. Bloisi, Andrea Pennisi, Cristian Zampino, Flavio Biancospino, Francesco Laus, Gianluca Di Stefano, Michele Brienza, Rocchina Romano.
+**MARIO: Modular and Extensible Architecture for Computing Visual Statistics in RoboCup SPL**. Technical report. arXiv:2209.09987
+
+
+If you use MARIO in an academic work, please cite:
+
+    @misc{https://doi.org/10.48550/arxiv.2209.09987,
+      doi = {10.48550/ARXIV.2209.09987},
+      url = {https://arxiv.org/abs/2209.09987},
+      author = {Bloisi, Domenico D. and Pennisi, Andrea and Zampino, Cristian and Biancospino, Flavio and Laus, Francesco and Di Stefano, Gianluca and Brienza, Michele and Romano, Rocchina},
+      title = {MARIO: Modular and Extensible Architecture for Computing Visual Statistics in RoboCup SPL},
+      publisher = {arXiv},
+      year = {2022},
+      copyright = {Creative Commons Attribution Share Alike 4.0 International}
+    }
+
+
+
 
 [![MARIO GUI](mario.png)](https://www.youtube.com/watch?v=eutyWaQ4-oU)
 
