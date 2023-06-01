@@ -7,6 +7,9 @@ import subprocess
 import shutil
 import os
 
+os.environ["MKL_THREADING_LAYER"] = "GNU"  # or "SEQ" for sequential execution
+os.environ["MKL_SERVICE_FORCE_INTEL"] = "1"
+
 class Preparation:
 
     def __init__(self, gui=False):
@@ -31,8 +34,10 @@ class Preparation:
 
         shutil.rmtree(os.path.join(os.getcwd(), "imbs-mt/images"))
         os.mkdir(os.path.join(os.getcwd(), "imbs-mt/images"))
+        print(os.getcwd())
         subprocess.run("python detectionT/detect.py", shell=True)
-
+        print("fatto detect")
+        
         source      = os.path.join(os.getcwd(), "data/image_BG/exp/labels/background.txt")
         destination = os.path.join(os.getcwd(), "data/image_BG/background.txt")
         shutil.copyfile(source, destination)
@@ -45,13 +50,14 @@ class Preparation:
 
         with open(os.path.join(os.getcwd(), "data/image_BG/background.txt"), "r") as f:
             lines = f.readlines()
-
+            print(lines)
         lines_count = sum([1 for l in lines if l[0] == "3"])
         if lines_count > 7: 
             self.new_field = True
         else:
             self.new_field = False
         return self.new_field
+        
 
     def calibrate_video(self, is_already_calibrated):
 

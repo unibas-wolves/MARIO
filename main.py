@@ -30,12 +30,13 @@ if __name__ == "__main__":
     src = rm.get_homography_src()
     dst = rm.get_homography_dst()
 
-    h = Homography(src, dst, Homography.H_FROM_DETECTION)
+    h = Homography(src, dst)
 
     ot = ObjectTracker(
         yolo_weights_path="./data/detectionCalciatori.pt", 
         strong_sort_weights="./data/osnet_x1_0_msmt17.pth", 
-        homography_handler=h
+        homography_handler=h,
+        device = "CPU"
     )
 
     pe = PoseEstimator("./data/pose_estimation.pth")

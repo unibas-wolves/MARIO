@@ -353,17 +353,18 @@ def gui():
 
         def start_calibration(already_calib):
             global device 
+            device = "cpu"
 
             s = Singleton()
             print(s.getVideoPath())
             prep = Preparation( True)
+            print(prep)
             shutil.copyfile(s.getVideoPath(), "./output.avi")
             rm_config = {
                 "homography_src_path": "./data/image_BG/background.jpg",
                 "homography_dst_path": None,
                 "tracker_src_path"   : "./output.avi"
             }
-
             new_field = prep.is_new_field()
             if new_field: 
                 rm_config["homography_dst_path"] = "./field_new.png"
@@ -402,6 +403,7 @@ def gui():
             print("ora calibro")
             prep.calibrate_video(already_calib)
             if(already_calib):
+                print("SONO QUI ")
                 prep.image_subtraction()
                 h._from_detection()
                 open_vista_tracking(root0)

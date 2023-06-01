@@ -79,7 +79,7 @@ class ObjectTracker():
 
         input_img = torch.unsqueeze(preprocessed_img, dim=0)
         input_img = input_img.to(self.device)
-
+        input_img = input_img.to(torch.float32)
         detection = self.model(input_img, augment=False, visualize=False)
         detection = non_max_suppression(
             detection, 

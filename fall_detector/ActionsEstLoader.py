@@ -21,7 +21,8 @@ class TSSTG(object):
         self.device = device
 
         self.model = TwoStreamSpatialTemporalGraph(self.graph_args, self.num_class).to(self.device)
-        self.model.load_state_dict(torch.load(weight_file))
+        self.model.load_state_dict(torch.load(weight_file, map_location=torch.device(self.device)))
+
         self.model.eval()
 
     def predict(self, pts, image_size):
