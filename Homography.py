@@ -112,10 +112,10 @@ class Homography():
         cv2.moveWindow("Homography - DST", 780, 80)
         cv2.setMouseCallback("Homography - DST", self._select_points_dst)
 
-        background = cv2.imread(os.getcwd() + '/data/image_BG/background.jpg')
+        background = cv2.imread(os.path.join(os.getcwd() ,'data/image_BG/background.jpg'))
         dh, dw, _ = background.shape
 
-        with open("/data/image_BG/background.txt", "r") as f:
+        with open(os.path.join(os.getcwd() ,'data/image_BG/background.jpg'), "r") as f:
             data = f.readlines()
         
         for row in data:
@@ -159,10 +159,10 @@ class Homography():
         """
      
 
-        background = cv2.imread(os.getcwd() + '/data/image_BG/background.jpg')
+        background = cv2.imread(os.path.join(os.getcwd() ,'data/image_BG/background.jpg'))
         dh, dw, _ = background.shape
 
-        with open("/data/image_BG/background.txt", "r") as f:
+        with open(os.path.join(os.getcwd() ,'data/image_BG/background.jpg'), "r") as f:
             data = f.readlines()
 
         for row in data:
