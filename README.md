@@ -122,7 +122,7 @@ If you use MARIO in an academic work, please cite:
      
 ## RUN THE PROJECT
 
-- Insert the following files in the "**MARIO/detectionT**" folder:
+- Insert the following files in the "**MARIO/data**" folder:
   
   https://drive.google.com/drive/folders/1hDBn8gZZ1LzGC5JKYuN2AIpA_oewmNM2?usp=sharing
 
