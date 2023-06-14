@@ -1,11 +1,100 @@
-matplotlib
-tk
-pillow
-pandas
-numpy
-python-math
-statistics
-opencv-python
-ezprogress
-torch
-torchvision
+absl-py==1.4.0
+asttokens==2.2.1
+backcall==0.2.0
+beautifulsoup4==4.12.2
+brotlipy==0.7.0
+cachetools==5.3.1
+certifi @ file:///croot/certifi_1683875369620/work/certifi
+cffi @ file:///croot/cffi_1670423208954/work
+chardet==5.1.0
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+contourpy==1.0.7
+cryptography @ file:///croot/cryptography_1677533068310/work
+cycler==0.11.0
+Cython==0.29.35
+decorator==5.1.1
+executing==1.2.0
+ezprogress==1.0.6
+filelock==3.12.0
+flake8==6.0.0
+fonttools==4.39.4
+future @ file:///croot/future_1677599870788/work
+gdown==4.7.1
+gmpy2 @ file:///tmp/build/80754af9/gmpy2_1645455533097/work
+google-auth==2.19.0
+google-auth-oauthlib==1.0.0
+grpcio==1.54.2
+h5py==3.8.0
+idna @ file:///croot/idna_1666125576474/work
+imageio==2.30.0
+ipython==8.13.2
+isort==4.3.21
+jedi==0.18.2
+Jinja2 @ file:///croot/jinja2_1666908132255/work
+joblib==1.2.0
+kiwisolver==1.4.4
+Markdown==3.4.3
+MarkupSafe==2.1.2
+matplotlib==3.7.1
+matplotlib-inline==0.1.6
+mccabe==0.7.0
+mkl-fft==1.3.6
+mkl-random @ file:///work/mkl/mkl_random_1682950433854/work
+mkl-service==2.4.0
+mpmath==1.2.1
+networkx @ file:///croot/networkx_1678964333703/work
+numpy @ file:///work/mkl/numpy_and_numpy_base_1682953417311/work
+oauthlib==3.2.2
+opencv-python==4.7.0.72
+packaging==23.1
+pandas==2.0.2
+parso==0.8.3
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow==9.4.0
+prompt-toolkit==3.0.38
+protobuf==3.20.1
+psutil==5.9.5
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.0
+pyasn1-modules==0.3.0
+pycodestyle==2.10.0
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pyflakes==3.0.1
+Pygments==2.15.1
+pyOpenSSL @ file:///croot/pyopenssl_1677607685877/work
+pyparsing==3.0.9
+PySocks @ file:///home/builder/ci_310/pysocks_1640793678128/work
+python-dateutil==2.8.2
+pytz==2023.3
+PyYAML @ file:///croot/pyyaml_1670514731622/work
+requests @ file:///croot/requests_1682607517574/work
+requests-oauthlib==1.3.1
+rsa==4.9
+scikit-learn==1.2.2
+scipy==1.10.1
+seaborn==0.12.2
+six==1.16.0
+sklearn==0.0.post5
+soupsieve==2.4.1
+stack-data==0.6.2
+sympy @ file:///croot/sympy_1668202399572/work
+tb-nightly==2.14.0a20230531
+tensorboard==2.13.0
+tensorboard-data-server==0.7.0
+threadpoolctl==3.1.0
+tomli==2.0.1
+torch==2.0.1
+torchaudio==2.0.2
+torchreid @ https://github.com/KaiyangZhou/deep-person-reid/archive/master.zip
+torchvision==0.15.2
+tqdm==4.65.0
+traitlets==5.9.0
+typing_extensions @ file:///croot/typing_extensions_1681939499988/work
+tzdata==2023.3
+urllib3 @ file:///croot/urllib3_1680254681959/work
+wcwidth==0.2.6
+Werkzeug==2.3.4
+yacs==0.1.8
+yapf==0.33.0

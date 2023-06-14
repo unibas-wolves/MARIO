@@ -115,7 +115,7 @@ class Homography():
         background = cv2.imread(os.getcwd() + '/data/image_BG/background.jpg')
         dh, dw, _ = background.shape
 
-        with open("./data/image_BG/background.txt", "r") as f:
+        with open("/data/image_BG/background.txt", "r") as f:
             data = f.readlines()
         
         for row in data:
@@ -162,7 +162,7 @@ class Homography():
         background = cv2.imread(os.getcwd() + '/data/image_BG/background.jpg')
         dh, dw, _ = background.shape
 
-        with open("./data/image_BG/background.txt", "r") as f:
+        with open("/data/image_BG/background.txt", "r") as f:
             data = f.readlines()
 
         for row in data:

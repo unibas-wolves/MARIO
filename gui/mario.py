@@ -360,8 +360,9 @@ def gui():
             prep = Preparation( True)
             print(prep)
             shutil.copyfile(s.getVideoPath(), "./output.avi")
+            print(os.getcwd())
             rm_config = {
-                "homography_src_path": "./data/image_BG/background.jpg",
+                "homography_src_path": os.getcwd() + "/data/image_BG/background.jpg",
                 "homography_dst_path": None,
                 "tracker_src_path"   : "./output.avi"
             }

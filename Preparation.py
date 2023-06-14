@@ -35,7 +35,7 @@ class Preparation:
         shutil.rmtree(os.path.join(os.getcwd(), "imbs-mt/images"))
         os.mkdir(os.path.join(os.getcwd(), "imbs-mt/images"))
         print(os.getcwd())
-        subprocess.run("python detectionT/detect.py", shell=True)
+        subprocess.run("python3 detectionT/detect.py", shell=True)
         print("fatto detect")
         
         source      = os.path.join(os.getcwd(), "data/image_BG/exp/labels/background.txt")
