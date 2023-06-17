@@ -333,7 +333,7 @@ void processImages(char* firstFrameFilename) {
     	getcwd(tmp, 256);
     	//cout<<tmp<<endl;
         cv::imwrite(string(tmp) +"/data/image_BG/background.jpg",imbsMT->getBgModel());
-        //cout<<"Ho salvato l'immagine " << string(tmp) <<"/background.jpg"<<endl;
+        cout<<"Ho salvato l'immagine " << string(tmp) <<"/data/image_BG/background.jpg"<<endl;
 
 		keyboard = waitKey(sleepTime);
         

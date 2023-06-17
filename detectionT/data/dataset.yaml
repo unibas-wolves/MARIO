@@ -1,7 +1,0 @@
-path:   # dataset root dir
-train: images/train.txt
-val: images/validation.txt
-test: images/test.txt
-# Classes
-nc: 2  
-names: ['T','porta']  
